@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxing Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1096110223041843"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="ad-rail ad-rail-left">
+      <ins
+        class="adsbygoogle ad-box ad-vertical"
+        style="display: block"
+        data-ad-client="ca-pub-1096110223041843"
+        data-ad-slot="1961553194"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </aside>
+
+    <aside class="ad-rail ad-rail-right">
+      <ins
+        class="adsbygoogle ad-box ad-vertical"
+        style="display: block"
+        data-ad-client="ca-pub-1096110223041843"
+        data-ad-slot="1961553194"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </aside>
+
+    <main class="app-shell">
+      <section id="setupScreen" class="screen setup-screen">
+        <header class="top-bar">
+          <p class="screen-label">Session Setup</p>
+          <button id="playButton" class="play-btn" type="button">Play</button>
+        </header>
+
+        <section class="builder-panel">
+          <div class="builder-header">
+            <h1 class="builder-title">Building Blocks</h1>
+            <button id="editBlocksButton" class="edit-btn" type="button" aria-label="Edit blocks">✎</button>
+          </div>
+          <ul id="blockList" class="block-list" aria-label="Universal time interval blocks"></ul>
+          <button id="addBlockButton" class="add-btn" type="button" aria-label="Add interval block">+</button>
+        </section>
+
+        <div class="screen-bottom-ad">
+          <ins
+            class="adsbygoogle ad-box ad-horizontal"
+            style="display: block"
+            data-ad-client="ca-pub-1096110223041843"
+            data-ad-slot="7022308189"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
+      </section>
+
+      <section id="timerScreen" class="screen timer-screen hidden">
+        <header id="timerControls" class="timer-controls">
+          <button id="backToSetupButton" class="back-btn" type="button">Back</button>
+          <button id="fullscreenButton" class="back-btn" type="button">Fullscreen</button>
+        </header>
+        <div class="timer-center">
+          <p id="timerBlockName" class="timer-block-name">boxing</p>
+          <p id="timerRoundCounter" class="timer-round-counter">1/1</p>
+          <h2 class="countdown">
+            <span id="timerMinutes" class="countdown-side countdown-left">00</span>
+            <span class="countdown-colon">:</span>
+            <span id="timerSeconds" class="countdown-side countdown-right">00</span>
+          </h2>
+          <button id="continueButton" class="continue-btn hidden" type="button">Continue</button>
+        </div>
+
+        <div class="screen-bottom-ad">
+          <ins
+            class="adsbygoogle ad-box ad-horizontal"
+            style="display: block"
+            data-ad-client="ca-pub-1096110223041843"
+            data-ad-slot="7022308189"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
